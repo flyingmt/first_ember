@@ -2,6 +2,7 @@ var FirstEmber = window.FirstEmber = Ember.Application.create();
 
 FirstEmber.applicationName = "Rock'n'Rool Call";
 
+/*
 FirstEmber.dummySearchResultsArtists = [
     {
         id: 1,
@@ -25,6 +26,7 @@ FirstEmber.dummySearchResultsArtists = [
         hotttnesss: '.79'
     }
 ];
+*/
 
 
 /* Order and include as you please. */
