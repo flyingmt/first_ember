@@ -13,7 +13,7 @@ FirstEmber.SearchResultsRoute = Ember.Route.extend({
 
             for (i = 0; i < artistResults.length; i++) {
                 var entry = artistResults[i];
-                artists.push(RocknrollcallYeoman.Artist.create({
+                artists.push(FirstEmber.Artist.create({
                     id: i + 1,
                     type: 'artist',
                     name: entry.name,
@@ -26,7 +26,7 @@ FirstEmber.SearchResultsRoute = Ember.Route.extend({
 
             for (i = 0; i < songResults.length; i++) {
                 entry = songResults[i];
-                songs.push(RocknrollcallYeoman.Song.create({
+                songs.push(FirstEmber.Song.create({
                     id: i + 1,
                     title: entry.title,
                     enid: entry.id,
