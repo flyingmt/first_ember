@@ -32,7 +32,7 @@ FirstEmber.ArtistRoute = Ember.Route.extend({
                     videos.push(entry.video[i]);
                 }
 
-                return App.Artist.create({
+                return FirstEmber.Artist.create({
                     enid: entry.id,
                     name: entry.name,
                     hotttnesss: entry.hotttnesss,
