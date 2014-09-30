@@ -1,0 +1,1 @@
+FirstEmber.ApplicationAdapter = DS.FixtureAdapter;
