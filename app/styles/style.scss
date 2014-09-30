@@ -1,5 +1,10 @@
+/*
+$icon-font-path: "../styles/fonts/"; // Change the path to the fonts
+@import "bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
+*/
+
 $icon-font-path: "../bower_components/bootstrap-sass/fonts/" !default;
-@import "bootstrap-sass/lib/bootstrap";
+@import "bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Pirata+One|Yanone+Kaffeesatz:400,700,300);
 
 $rockin: 'Pirata One', cursive;
