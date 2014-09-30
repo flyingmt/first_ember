@@ -15,7 +15,7 @@ FirstEmber.SongRoute = Ember.Route.extend({
                 var track = null;
                 if (entry.tracks.length) track = entry.tracks[0];
 
-                return RocknrollcallYeoman.Song.create({
+                return FirstEmber.Song.create({
                     enid: entry.id,
                     title: entry.title,
                     hotttnesss: entry.song_hotttnesss,
