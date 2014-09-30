@@ -1,6 +1,6 @@
 var FirstEmber = window.FirstEmber = Ember.Application.create();
 
-RocknrollcallYeoman.applicationName = "Rock'n'Rool Call";
+FirstEmber.applicationName = "Rock'n'Rool Call";
 
 /* Order and include as you please. */
 require('scripts/controllers/*');
